@@ -70,7 +70,7 @@ public class ModelMixin {
     @Mixin(ParrotModel.class)
     private static class ParrotModelMixin {
         @Inject(method = "renderOnShoulder", at = @At("HEAD"), cancellable = true)
-        private void renderOnShoulderHead(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, float limbSwing, float limbSwingAmount, float netHeadYaw, float headPitch, int tickCount, CallbackInfo ci) {
+        private void renderOnShoulder(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, float limbSwing, float limbSwingAmount, float netHeadYaw, float headPitch, int tickCount, CallbackInfo ci) {
             var self = (ParrotModel) (Object) this;
             if (self.young) {
                 var youngScaleFactor = 0.5F;
@@ -81,6 +81,7 @@ public class ModelMixin {
                 self.prepare(ParrotModel.State.ON_SHOULDER);
                 self.setupAnim(ParrotModel.State.ON_SHOULDER, tickCount, limbSwing, limbSwingAmount, 0.0F, netHeadYaw, headPitch);
                 self.root().render(poseStack, buffer, packedLight, packedOverlay);
+                poseStack.popPose();
                 ci.cancel();
             }
         }
