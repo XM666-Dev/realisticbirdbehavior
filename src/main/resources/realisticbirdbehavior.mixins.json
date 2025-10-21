@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.xm666.realisticbirdbehavior.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BreedMixin$ParrotMixin",
+    "ModelMixin$ParrotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "ModelMixin$HierarchicalModelMixin",
+    "ModelMixin$ParrotModelMixin"
+  ]
+}

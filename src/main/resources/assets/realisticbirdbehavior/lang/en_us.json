@@ -1,0 +1,12 @@
+{
+  "itemGroup.realisticbirdbehavior": "Example Mod Tab",
+  "block.realisticbirdbehavior.example_block": "Example Block",
+  "item.realisticbirdbehavior.example_item": "Example Item",
+  "realisticbirdbehavior.configuration.title": "RealisticBirdBehavior Configs",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml": "RealisticBirdBehavior Configs",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml.title": "RealisticBirdBehavior Configs",
+  "realisticbirdbehavior.configuration.items": "Item List",
+  "realisticbirdbehavior.configuration.logDirtBlock": "Log Dirt Block",
+  "realisticbirdbehavior.configuration.magicNumberIntroduction": "Magic Number Text",
+  "realisticbirdbehavior.configuration.magicNumber": "Magic Number"
+}
