@@ -33,8 +33,8 @@ public class BreedMixin {
 
         @Inject(method = "mobInteract", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/animal/Parrot;setOrderedToSit(Z)V"), cancellable = true)
         private void mobInteract(Player player, InteractionHand hand, CallbackInfoReturnable<InteractionResult> cir, @Local ItemStack itemstack) {
-            if (itemstack.is(ItemTags.PARROT_FOOD)) {
-                var self = (Parrot) (Object) this;
+            var self = (Parrot) (Object) this;
+            if (!self.isBaby() && itemstack.is(ItemTags.PARROT_FOOD)) {
                 itemstack.consume(1, player);
                 self.setInLove(player);
                 cir.setReturnValue(InteractionResult.CONSUME);
