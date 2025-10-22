@@ -1,0 +1,7 @@
+{
+  "realisticbirdbehavior.configuration.title": "真实鸟类行为 配置",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml": "真实鸟类行为 通用配置",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml.title": "真实鸟类行为 通用配置",
+  "realisticbirdbehavior.configuration.shoulderBodyXOffset": "肩膀身体x偏移",
+  "realisticbirdbehavior.configuration.shoulderBodyXOffset.tooltip": "控制幼年鹦鹉渲染在肩膀上的水平偏移。"
+}

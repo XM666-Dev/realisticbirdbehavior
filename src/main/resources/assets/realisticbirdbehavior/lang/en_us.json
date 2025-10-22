@@ -1,12 +1,7 @@
 {
-  "itemGroup.realisticbirdbehavior": "Example Mod Tab",
-  "block.realisticbirdbehavior.example_block": "Example Block",
-  "item.realisticbirdbehavior.example_item": "Example Item",
-  "realisticbirdbehavior.configuration.title": "RealisticBirdBehavior Configs",
-  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml": "RealisticBirdBehavior Configs",
-  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml.title": "RealisticBirdBehavior Configs",
-  "realisticbirdbehavior.configuration.items": "Item List",
-  "realisticbirdbehavior.configuration.logDirtBlock": "Log Dirt Block",
-  "realisticbirdbehavior.configuration.magicNumberIntroduction": "Magic Number Text",
-  "realisticbirdbehavior.configuration.magicNumber": "Magic Number"
+  "realisticbirdbehavior.configuration.title": "RealisticBirdBehavior Configuration",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml": "RealisticBirdBehavior Common Configuration",
+  "realisticbirdbehavior.configuration.section.realisticbirdbehavior.common.toml.title": "RealisticBirdBehavior Common Configuration",
+  "realisticbirdbehavior.configuration.shoulderBodyXOffset": "Shoulder body x offset",
+  "realisticbirdbehavior.configuration.shoulderBodyXOffset.tooltip": "Controls baby parrot horizontal offset when render on shoulder."
 }
